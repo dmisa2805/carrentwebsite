@@ -2,7 +2,7 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-white  text-subtitle p-10 mt-10 w-screen">
+    <footer className="bg-white  text-subtitle p-10 mt-10 w-screen dark:bg-gray-800">
       <div className=" mx-auto flex flex-col md:flex-row justify-between">
         {/* Logo & Description */}
         <div className="md:w-1/3 flex flex-col justify-start pl-8">
@@ -16,7 +16,7 @@ const Footer = () => {
         <div className="md:w-2/3 flex flex-wrap gap-30 mt-6 mr-30 md:mt-0 justify-end">
           {/* About */}
           <div>
-            <h3 className="font-semibold text-maintext mb-4">About</h3>
+            <h3 className="font-semibold text-maintext dark:text-white mb-4">About</h3>
             <ul className="mt-2 text-sm text-subtitle space-y-4">
               <li>How it works</li>
               <li>Featured</li>
@@ -27,7 +27,7 @@ const Footer = () => {
 
           {/* Community */}
           <div>
-            <h3 className="font-semibold text-maintext mb-4">Community</h3>
+            <h3 className="font-semibold text-maintext dark:text-white mb-4">Community</h3>
             <ul className="mt-2 text-sm text-subtitle space-y-4">
               <li>Events</li>
               <li>Blog</li>
@@ -38,7 +38,7 @@ const Footer = () => {
 
           {/* Socials */}
           <div>
-            <h3 className="font-semibold text-maintext mb-4">Socials</h3>
+            <h3 className="font-semibold text-maintext dark:text-white mb-4">Socials</h3>
             <ul className="mt-2 text-sm text-subtitle space-y-4">
               <li>Discord</li>
               <li>Instagram</li>
@@ -50,11 +50,11 @@ const Footer = () => {
       </div>
 
       {/* Footer Bottom */}
-      <div className="mx-auto mt-8 p-8 flex flex-col md:flex-row justify-between text-sm text-subtitle border-t">
+      <div className="mx-auto mt-8 p-8 flex flex-col md:flex-row justify-between text-sm text-subtitle dark:text-white border-t">
         <p>©2022 MORENT. All rights reserved</p>
         <div className="flex space-x-6 mt-2 md:mt-0">
-          <p className="hover:text-gray-900 cursor-pointer">Privacy & Policy</p>
-          <p className="hover:text-gray-900 cursor-pointer">Terms & Condition</p>
+          <p className="hover:text-subtitle-light dark:text-white cursor-pointer">Privacy & Policy</p>
+          <p className="hover:text-subtitle-light dark:text-white cursor-pointer">Terms & Condition</p>
         </div>
       </div>
     </footer>
