@@ -3,12 +3,14 @@ import { Input } from "antd";
 import { HeartFilled, BellFilled, SettingFilled, UserOutlined } from "@ant-design/icons";
 import { useNavigate } from "react-router-dom";
 import carData from "../data/carData.json";
-import ThemeToggle from "./ThemeToggle"
+import ThemeToggle from "./ThemeToggle";
+import { useAuth } from "../hooks/useAuth";
 
 const Header = () => {
   const [searchQuery, setSearchQuery] = useState(""); 
   const [filteredCars, setFilteredCars] = useState([]); 
   const navigate = useNavigate();
+  const { user } = useAuth();
 
   // Search Function
   const car = carData.carData;
@@ -87,10 +89,20 @@ const Header = () => {
         </span>
 
         {/* Log In */}
-        <div className="dark:text-white flex items-center cursor-pointer hover:text-blue-600" onClick={() => navigate("/login")}>
-          <UserOutlined className="text-xl mr-1" />
-          <span className="text-sm">Log In/Sign Up</span>
-        </div>
+        {user ? (
+          <div className="dark:text-white flex items-center cursor-pointer hover:text-blue-600">
+            <UserOutlined className="text-xl mr-1" />
+            <span className="text-sm">Welcome</span>
+          </div>
+        ) : (
+          <div 
+            className="dark:text-white flex items-center cursor-pointer hover:text-blue-600" 
+            onClick={() => navigate("/login")}
+          >
+            <UserOutlined className="text-xl mr-1" />
+            <span className="text-sm">Log In/Sign Up</span>
+          </div>
+        )}
       </div>
     </header>
   );

@@ -16,9 +16,9 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    const userData = { email, favourites: [] }; // Giả định user không có mục yêu thích ban đầu
+    const userData = { email, favourites: [] };
     login(userData);
-    navigate("/"); // Điều hướng về trang chủ hoặc dashboard sau khi đăng nhập
+    navigate("/"); 
   };
 
   return (
