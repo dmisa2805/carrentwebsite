@@ -12,7 +12,6 @@
         "rating": 4,
         "location": "Ho Chi Minh",
         "date_available": ["2025-02-15", "2025-11-20"],
-        "time_available": ["08:00", "18:00"],
         "description": "Toyota Camry 2023 mang đến sự thoải mái, động cơ mạnh mẽ và nội thất sang trọng phù hợp cho mọi chuyến đi xa.",
         "isPopular": true
         },
@@ -28,7 +27,6 @@
         "rating": 5,
         "location": "Ha Noi",
         "date_available": ["2025-02-16", "2025-10-22"],
-        "time_available": ["09:00", "20:00"],
         "description": "GLC 300 với thiết kế hiện đại, nội thất cao cấp, hệ thống an toàn tiên tiến giúp bạn có trải nghiệm lái tuyệt vời.",
         "isPopular": true
         },
@@ -44,7 +42,6 @@
         "rating": 5,
         "location": "Da Nang",
         "date_available": ["2025-01-18", "2025-06-25"],
-        "time_available": ["07:30", "19:00"],
         "description": "BMW X5 2025 mạnh mẽ, rộng rãi và sang trọng, phù hợp cho các gia đình hoặc nhóm bạn du lịch dài ngày.",
         "isPopular": true
         },
@@ -58,9 +55,8 @@
         "capacity": 2,
         "price": { "original": 150, "discounted": 135 },
         "rating": 4,
-        "location": "Ho ChiMinh",
+        "location": "Ho Chi Minh",
         "date_available": ["2025-01-20", "2025-09-27"],
-        "time_available": ["10:00", "22:00"],
         "description": "Ford Mustang 2023 có động cơ mạnh mẽ, thiết kế thể thao, thích hợp cho những ai yêu tốc độ và phong cách.",
         "isPopular": true
         },
@@ -76,7 +72,6 @@
         "rating": 4,
         "location": "Hue",
         "date_available": ["2025-01-21", "2025-12-28"],
-        "time_available": ["08:00", "19:00"],
         "description": "Honda CR-V 2025 là sự kết hợp hoàn hảo giữa sự rộng rãi, tiết kiệm nhiên liệu và hệ thống an toàn hiện đại.",
         "isPopular": false
         },
@@ -92,7 +87,6 @@
         "rating": 4,
         "location": "Ho Chi Minh",
         "date_available": ["2025-02-22", "2025-12-01"],
-        "time_available": ["08:00", "20:00"],
         "description": "Audi Q7 2023 với thiết kế sang trọng, công nghệ tiên tiến và không gian rộng rãi, phù hợp cho gia đình.",
         "isPopular": false
         },
@@ -108,7 +102,6 @@
         "rating": 4,
         "location": "Ha Noi",
         "date_available": ["2025-02-23", "2025-12-02"],
-        "time_available": ["09:00", "21:00"],
         "description": "Hyundai Tucson 2025 mang đến sự thoải mái, tiết kiệm nhiên liệu và thiết kế hiện đại.",
         "isPopular": false
         },
@@ -121,10 +114,9 @@
         "steering": "Automatic",
         "capacity": 5,
         "price": { "original": 85, "discounted": 75 },
-        "rating": 4,
+        "rating": 3,
         "location": "Da Nang",
         "date_available": ["2025-02-24", "2025-12-03"],
-        "time_available": ["07:00", "18:00"],
         "description": "Kia Seltos 2023 là sự lựa chọn lý tưởng cho những chuyến đi ngắn với thiết kế trẻ trung và động cơ tiết kiệm nhiên liệu.",
         "isPopular": false
         },
@@ -137,10 +129,9 @@
         "steering": "Automatic",
         "capacity": 5,
         "price": { "original": 95, "discounted": 85 },
-        "rating": 4,
+        "rating": 3,
         "location": "Hue",
         "date_available": ["2025-02-25", "2025-12-04"],
-        "time_available": ["08:30", "19:30"],
         "description": "Mazda CX-5 2025 với thiết kế sang trọng, động cơ mạnh mẽ và hệ thống an toàn tiên tiến.",
         "isPopular": false
         },
@@ -156,7 +147,6 @@
         "rating": 4,
         "location": "Ho Chi Minh",
         "date_available": ["2025-02-26", "2025-12-05"],
-        "time_available": ["09:00", "20:00"],
         "description": "Volkswagen Tiguan 2023 kết hợp giữa sự thoải mái, hiệu suất và công nghệ hiện đại.",
         "isPopular": false
         },
@@ -172,7 +162,6 @@
         "rating": 5,
         "location": "Ha Noi",
         "date_available": ["2025-01-27", "2025-12-06"],
-        "time_available": ["08:00", "19:00"],
         "description": "Lexus RX 350 2025 mang đến sự sang trọng, hiệu suất cao và công nghệ tiên tiến.",
         "isPopular": false
         },
@@ -185,10 +174,9 @@
         "steering": "Automatic",
         "capacity": 5,
         "price": { "original": 105, "discounted": 95 },
-        "rating": 4,
+        "rating": 2,
         "location": "Da Nang",
         "date_available": ["2025-01-28", "2025-12-07"],
-        "time_available": ["07:30", "18:30"],
         "description": "Subaru Outback 2023 với hệ thống dẫn động 4 bánh, thiết kế mạnh mẽ và không gian rộng rãi.",
         "isPopular": false
         },
@@ -201,10 +189,9 @@
         "steering": "Automatic",
         "capacity": 5,
         "price": { "original": 100, "discounted": 90 },
-        "rating": 4,
+        "rating": 2,
         "location": "Hue",
         "date_available": ["2025-04-29", "2025-12-08"],
-        "time_available": ["08:00", "20:00"],
         "description": "Nissan Rogue 2025 với thiết kế hiện đại, tiết kiệm nhiên liệu và hệ thống an toàn tiên tiến.",
         "isPopular": false
         },
@@ -218,9 +205,8 @@
         "capacity": 8,
         "price": { "original": 180, "discounted": 165 },
         "rating": 5,
-        "location": "Ho ChiMinh",
+        "location": "Ho Chi Minh",
         "date_available": ["2025-03-01", "2025-12-09"],
-        "time_available": ["09:00", "21:00"],
         "description": "Chevrolet Tahoe 2023 là sự lựa chọn hoàn hảo cho những chuyến đi dài với không gian rộng rãi và động cơ mạnh mẽ.",
         "isPopular": false
         },
@@ -236,7 +222,6 @@
         "rating": 5,
         "location": "Ha Noi",
         "date_available": ["2025-03-02", "2025-12-10"],
-        "time_available": ["07:00", "19:00"],
         "description": "Jeep Wrangler 2025 với thiết kế mạnh mẽ, khả năng off-road vượt trội và phong cách độc đáo.",
         "isPopular": false
         },
@@ -247,12 +232,11 @@
         "image": "/car 2.png",
         "gasoline": "Electric",
         "steering": "Automatic",
-        "capacity": 5,
+        "capacity": 3,
         "price": { "original": 200, "discounted": 185 },
         "rating": 5,
         "location": "Da Nang",
         "date_available": ["2025-03-03", "2025-12-11"],
-        "time_available": ["08:00", "20:00"],
         "description": "Tesla Model Y 2025 với công nghệ điện đỉnh cao, hiệu suất vượt trội và thiết kế hiện đại.",
         "isPopular": false
         },
@@ -268,7 +252,6 @@
         "rating": 5,
         "location": "Hue",
         "date_available": ["2025-03-04", "2025-12-12"],
-        "time_available": ["09:00", "21:00"],
         "description": "Porsche Cayenne 2023 kết hợp giữa hiệu suất cao, thiết kế sang trọng và công nghệ tiên tiến.",
         "isPopular": false
         },
@@ -281,10 +264,9 @@
         "steering": "Automatic",
         "capacity": 7,
         "price": { "original": 210, "discounted": 195 },
-        "rating": 5,
-        "location": "Ho ChiMinh",
+        "rating": 4,
+        "location": "Ho Chi Minh",
         "date_available": ["2025-03-05", "2025-12-13"],
-        "time_available": ["08:00", "19:00"],
         "description": "Land Rover Defender 2025 với khả năng off-road vượt trội, thiết kế mạnh mẽ và không gian rộng rãi.",
         "isPopular": false
         },
@@ -297,10 +279,9 @@
         "steering": "Automatic",
         "capacity": 7,
         "price": { "original": 170, "discounted": 155 },
-        "rating": 5,
+        "rating": 4,
         "location": "Ha Noi",
         "date_available": ["2025-03-06", "2025-12-14"],
-        "time_available": ["07:30", "18:30"],
         "description": "Volvo XC90 2023 với thiết kế sang trọng, hệ thống an toàn hàng đầu và không gian rộng rãi.",
         "isPopular": false
         },
@@ -313,10 +294,9 @@
         "steering": "Automatic",
         "capacity": 7,
         "price": { "original": 150, "discounted": 140 },
-        "rating": 5,
+        "rating": 4,
         "location": "Da Nang",
         "date_available": ["2025-03-07", "2025-08-15"],
-        "time_available": ["08:00", "20:00"],
         "description": "Ford Explorer 2025 với thiết kế mạnh mẽ, không gian rộng rãi và công nghệ hiện đại.",
         "isPopular": false
     }

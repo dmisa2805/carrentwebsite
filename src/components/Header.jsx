@@ -68,13 +68,13 @@ const Header = () => {
         <ThemeToggle />
 
         {/* Favorites */}
-        <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light hover:text-red-500">
+        <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light dark:text-gray-400 hover:text-red-500">
           <HeartFilled className="text-xl  cursor-pointer" onClick={() => navigate("/favorites")} />
         </span>
 
         {/* Notifications */}
         <div className="relative">
-          <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light hover:text-subtitle">
+          <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light dark:text-gray-400 hover:text-subtitle">
             <BellFilled className="text-xl  cursor-pointer" />
           </span>
           {/* Notification Badge */}
@@ -82,7 +82,7 @@ const Header = () => {
         </div>
 
         {/* Settings */}
-        <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light hover:text-subtitle">
+        <span className="w-10 h-10 rounded-full border border-gray-300 flex items-center justify-center transition text-subtitle-light dark:text-gray-400 hover:text-subtitle">
           <SettingFilled className="text-xl cursor-pointer" />
         </span>
 

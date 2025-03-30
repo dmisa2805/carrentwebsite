@@ -5,7 +5,7 @@ import { Button } from "antd";
 import { StarOutlined, StarFilled } from "@ant-design/icons";
 import CarCard from "../components/CarCard";
 
-const StarRating = ({ rating }) => {
+export const StarRating = ({ rating }) => {
   const maxStars = 5;
   return (
     <div className="flex items-center mt-4">

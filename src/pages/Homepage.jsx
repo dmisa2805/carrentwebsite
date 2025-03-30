@@ -19,7 +19,7 @@ const Homepage = () => {
     <main>
       <HeroSection />  
       <div className="p-6">
-        <PickDropSection onSearch={handleSearch} />
+        <PickDropSection onSearch={handleSearch}/>
 
         {/* Popular Cars */}
         <h1 className="text-2xl font-bold mt-10 dark:text-white">Popular Cars</h1>
