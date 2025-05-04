@@ -54,6 +54,11 @@ Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/pac
 - Managing code with Git and GitHub
 
 ---
+## Screenshot
+### 🏠 Homepage
+![Homepage Screenshot](./screenshots/homepage.png)
+
+---
 
 ## 📬 Contact
 
