@@ -30,7 +30,7 @@ Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/pac
 ## 📌 Features
 
 - 🚘 View and filter a list of rental cars
-- 📱 Fully responsive for mobile and desktop
+- 📱 Fully responsive for desktop
 - 📝 Booking page layout and form
 - ⚡ Fast load times using Vite
 - 💅 Clean modern UI (designed by MindX)
@@ -43,7 +43,6 @@ Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/pac
 - **Build Tool**: Vite
 - **Languages**: JavaScript (ES6+), HTML, CSS
 - **Tools**: ESLint, Git, GitHub
-- *(Add more as needed)*
 
 ---
 
@@ -59,7 +58,7 @@ Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/pac
 ## 📬 Contact
 
 Built by **Diệu Hằng (dmisa2805)**  
-📧 Email: _your_email_here_  
+📧 Email: doanthidieuhang28@gmail.com  
 🔗 GitHub: [@dmisa2805](https://github.com/dmisa2805)
 
 ---
