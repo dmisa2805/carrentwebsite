@@ -56,7 +56,7 @@ Check out the [TypeScript template](https://github.com/vitejs/vite/tree/main/pac
 ---
 ## Screenshot
 ### 🏠 Homepage
-![Homepage Screenshot](./screenshots/homepage.png)
+![Homepage Screenshot](./public/homepage.png)
 
 ---
 
